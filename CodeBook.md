@@ -16,7 +16,7 @@ This codebook describes the data used for this project.
 * These summary data are from 30 participants who participated in a series of 6 activities. 
 * While conducting these activities, participants collected inertial data via waist-mounted smartphones.
 
-The variable names below have a number of components, including the following:
+####The variable names below have a number of components, including the following:
 * Domain Variable: time vs. frequency
 * Motion Component: body vs. gravity
 * Sensor Signal: accelerometer vs. gyroscope
@@ -32,7 +32,7 @@ The variable names below have a number of components, including the following:
 * source: 2 levels (train, test)
 
 ####Integers
-*subject: Range [1,30]
+* subject: Range [1,30]
 
 ####Numeric (all normalized and bounded within [-1,1]) 
 * timebodyaccelerometermeanx
