@@ -69,8 +69,8 @@ This codebook describes the data used for this project.
 * timebodyaccelerometermagnitudestd
 * timegravityaccelerometermagnitudemean
 * timegravityaccelerometermagnitudestd
-* timebodyaccelerometerjerkmagnitudenitudemean
-* timebodyaccelerometerjerkmagnitudenitudestd
+* timebodyaccelerometerjerkmagnitudemean
+* timebodyaccelerometerjerkmagnitudestd
 * timebodygyroscopemagnitudemean
 * timebodygyroscopemagnitudestd
 * timebodygyroscopejerkmagnitudemean
@@ -105,9 +105,9 @@ This codebook describes the data used for this project.
 * frequencybodyaccelerometermagnitudemean
 * frequencybodyaccelerometermagnitudestd
 * frequencybodyaccelerometermagnitudemeanfrequency
-* frequencybodyaccelerometerjerkmagnitudenitudemean
-* frequencybodyaccelerometerjerkmagnitudenitudestd
-* frequencybodyaccelerometerjerkmagnitudenitudemeanfrequency
+* frequencybodyaccelerometerjerkmagnitudemean
+* frequencybodyaccelerometerjerkmagnitudestd
+* frequencybodyaccelerometerjerkmagnitudemeanfrequency
 * frequencybodygyroscopemagnitudemean
 * frequencybodygyroscopemagnitudestd
 * frequencybodygyroscopemagnitudemeanfrequency
