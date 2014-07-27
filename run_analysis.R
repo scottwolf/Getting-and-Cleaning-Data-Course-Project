@@ -10,12 +10,12 @@ testX <- read.table("./UCI HAR Dataset/test/X_test.txt")
 testY <- read.table("./UCI HAR Dataset/test/Y_test.txt")
 testSubject <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 
-#reading features (column names for trainX and testX)
-features <- read.table("./UCI HAR Dataset/features.txt")
-
 #applying column name to testSubject and trainSubject
 names(testSubject)[names(testSubject)=="V1"] <- "Subject"
 names(trainSubject)[names(trainSubject)=="V1"] <- "Subject"
+
+#reading features (column names for trainX and testX)
+features <- read.table("./UCI HAR Dataset/features.txt")
 
 #applying column names to trainX and testX
 names(trainX)[1:561] <- paste(features$V2)
@@ -81,14 +81,13 @@ for (i in 1:length(colNames))
 {
         colNames[i] = gsub("-std$","stddev",colNames[i])
         colNames[i] = gsub("^(t)","time",colNames[i])
-        colNames[i] = gsub("^(f)","freq",colNames[i])
+        colNames[i] = gsub("(freq)", "frequency",colNames[i])
+        colNames[i] = gsub("^(f)","frequency",colNames[i])
         colNames[i] = gsub("([Gg]ravity)","gravity",colNames[i])
         colNames[i] = gsub("([Bb]ody[Bb]ody|[Bb]ody)","body",colNames[i])
-        colNames[i] = gsub("[Gg]yro","gyro",colNames[i])
-        colNames[i] = gsub("AccMag","accmagnitude",colNames[i])
-        colNames[i] = gsub("([Bb]odyaccjerkmag)","bodyaccjerkmagnitude",colNames[i])
-        colNames[i] = gsub("JerkMag","jerkmagnitude",colNames[i])
-        colNames[i] = gsub("GyroMag","gyromagnitude",colNames[i])
+        colNames[i] = gsub("gyro","gyroscope",colNames[i])
+        colNames[i] = gsub("acc", "accelerometer",colNames[i])
+        colNames[i] = gsub("mag","magnitude",colNames[i])
 };
 colnames(tidyData) = colNames;
 
