@@ -1,17 +1,16 @@
-###Getting and Cleaning Data Final Project: Codebook
+##Getting and Cleaning Data Final Project: Codebook
 
 This codebook describes the data used for this project.
 
 
-##Data Source:
+###Data Source:
 * Data for this exercise are from the Human Activity Recognition Using Smartphones Dataset Version 1.0:
 * Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-
 * Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-##Data Set Information
+###Data Set Information
 * 180 observations of  82 variables
 * For more detailed information on the methods used to transform the data to its current state, please see the "README.md" file.
 * These summary data are from 30 participants who participated in a series of 6 activities. 
@@ -26,16 +25,16 @@ The variable names below have a number of components, including the following:
 * Summary tatistic: mean vs. std (standard deviation)
 
 
-##Variables
+###Variables
 		
-Factors
+####Factors
 activity: Factor w/ 6 levels (laying, sitting, standing, walking, walking_downstairs, walking_upstairs)
 source: Factor w/ 2 levels (train, test)
 
-Integers
+####Integers
 subject: Integer(Range: 1 to 30)
 
-Numeric (all normalized and bounded within [-1,1]) 
+####Numeric (all normalized and bounded within [-1,1]) 
 timebodyaccelerometermeanx
 timebodyaccelerometermeany
 timebodyaccelerometermeanz
