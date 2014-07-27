@@ -29,7 +29,7 @@ The variable names below have a number of components, including the following:
 		
 ####Factors
 * activity: 6 levels (laying, sitting, standing, walking, walking_downstairs, walking_upstairs)
-*source: 2 levels (train, test)
+* source: 2 levels (train, test)
 
 ####Integers
 *subject: Range [1,30]
