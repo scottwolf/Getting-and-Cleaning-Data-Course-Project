@@ -28,11 +28,11 @@ The variable names below have a number of components, including the following:
 ###Variables
 		
 ####Factors
-activity: Factor w/ 6 levels (laying, sitting, standing, walking, walking_downstairs, walking_upstairs)
-source: Factor w/ 2 levels (train, test)
+* activity: 6 levels (laying, sitting, standing, walking, walking_downstairs, walking_upstairs)
+*source: 2 levels (train, test)
 
 ####Integers
-subject: Integer(Range: 1 to 30)
+*subject: Range [1,30]
 
 ####Numeric (all normalized and bounded within [-1,1]) 
 * timebodyaccelerometermeanx
